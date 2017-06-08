@@ -8,23 +8,23 @@
 
 #import "RCTGetuiModule.h"
 
-#if __has_include(<React/RCTBridge.h>)
+// #if __has_include(<React/RCTBridge.h>)
 #import <React/RCTEventDispatcher.h>
 #import <React/RCTRootView.h>
 #import <React/RCTBridge.h>
 #import <React/RCTLog.h>
 
-#elif __has_include("RCTBridge.h")
-#import "RCTEventDispatcher.h"
-#import "RCTRootView.h"
-#import "RCTBridge.h"
-#import "RCTLog.h"
-#elif __has_include("React/RCTBridge.h")
-#import "React/RCTEventDispatcher.h"
-#import "React/RCTRootView.h"
-#import "React/RCTBridge.h"
-#import "React/RCTLog.h"
-#endif
+// #elif __has_include("RCTBridge.h")
+// #import "RCTEventDispatcher.h"
+// #import "RCTRootView.h"
+// #import "RCTBridge.h"
+// #import "RCTLog.h"
+// #elif __has_include("React/RCTBridge.h")
+// #import "React/RCTEventDispatcher.h"
+// #import "React/RCTRootView.h"
+// #import "React/RCTBridge.h"
+// #import "React/RCTLog.h"
+// #endif
 
 
 @interface RCTGetuiModule () {
